@@ -14,7 +14,7 @@ A real-time air quality monitoring application powered by NASA TEMPO satellite d
    ```bash
    npm install
    cd client
-   npm install
+   npm install -legacy-peer-deps
    ```
 
 2. Set up environment variables:
