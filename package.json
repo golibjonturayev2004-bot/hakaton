@@ -1,0 +1,41 @@
+{
+  "name": "tempo-air-quality-forecast",
+  "version": "1.0.0",
+  "description": "NASA TEMPO Air Quality Forecasting Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm run build:client",
+    "build:client": "cd client && npm run build",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "socket.io": "^4.7.4",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0",
+    "redis": "^4.6.10",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "NASA",
+    "TEMPO",
+    "air-quality",
+    "forecasting",
+    "environmental-monitoring",
+    "public-health"
+  ],
+  "author": "NASA Hackathon Team",
+  "license": "MIT"
+}
