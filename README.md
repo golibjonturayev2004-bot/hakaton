@@ -19,8 +19,7 @@ A real-time air quality monitoring application powered by NASA TEMPO satellite d
 
 2. Set up environment variables:
    ```bash
-# Copy the example environment file
-   cp env.example .env
+
 
 # Edit .env file with your API keys
 # Add your NASA API key and other required keys
